@@ -24,6 +24,7 @@ import Branch from './components/Branches/Branch'
 import Verification from './components/Verification/Verification'
 import CustomerDashboard from "./components/Dashboard/customer/CustomerDashboard";
 import ReceivableAmount from "./components/Amount Information/ReceivableAmount";
+import CustomizePackage from "./components/Services/CustomizePackage";
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -140,6 +141,16 @@ function App() {
           }
         />
         <Route
+          path="/customize-package"
+          element={
+            <Layout>
+              <div className="bg-[#ceeff5] w-full h-full">
+                <CustomizePackage />
+              </div>
+            </Layout>
+          }
+        />
+        <Route
           path="/services-offer"
           element={
             <Layout>
@@ -153,7 +164,7 @@ function App() {
         <Route path="/book-flight" 
           element={
             <Layout>
-              <div className="bg-[#ceeff5] w-full h-[118%]">
+              <div className="bg-[#ceeff5] w-full h-[125%]">
                 <BookFlight />
               </div>
             </Layout>

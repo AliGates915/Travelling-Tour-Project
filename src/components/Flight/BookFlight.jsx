@@ -44,7 +44,7 @@ const BookingForm = () => {
   };
 
   return (
-    <div className="max-w-xl mx-auto my-4 p-4 text-gray-800 bg-white shadow-md">
+    <div className="max-w-xl mx-auto my-4 p-6 text-gray-800 bg-white shadow-md">
       <h2 className="text-2xl font-semibold text-center pt-2 text-blue mb-2">BOOKING</h2>
       <form onSubmit={handleSubmit} className="space-y-1">
         <div>
@@ -170,7 +170,7 @@ const BookingForm = () => {
           </div>
         </div>
 
-        <div className="flex justify-between mt-4">
+        <div className="flex justify-between mt-4 gap-4">
           <button
             type="button"
             className={`w-1/2 py-2 text-center rounded-md ${

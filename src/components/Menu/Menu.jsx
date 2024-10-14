@@ -39,6 +39,10 @@ const menuItems = [
             label: "Services Offer Vendor",
             href: "/services-offer",
           },
+          {
+            label: "Customize Package",
+            href: "/customize-package",
+          },
         ],
       },
       // Course
